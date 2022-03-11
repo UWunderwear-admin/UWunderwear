@@ -1,0 +1,234 @@
+/*CSS_Reset*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{border:0;vertical-align:baseline;margin:0;padding:0;font-size:100%;letter-spacing:0;font-family:"Source Sans Pro","Open Sans","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft JhengHei","微軟正黑體","STHeiti","WenQuanYi Micro Hei","SimSun",sans-serif}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+/*Reset_Shopline's_h2*/
+.box-info h2{border:0;vertical-align:baseline;margin:0;padding:0;font-size:100%;letter-spacing:0;font-family:"Source Sans Pro","Open Sans","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft JhengHei","微軟正黑體","STHeiti","WenQuanYi Micro Hei","SimSun",sans-serif}
+.box-info h2{font-size:30px;letter-spacing:2px;margin-top:.5%}
+
+/*Reset_Shopline's_h5*/
+h5.modal-title.ng-binding{background-color:inherit;display:inherit}
+h5.summary-header{background-color:inherit;color:inherit}
+.cart .panel .panel-body h5{background-color:inherit;color:inherit;display:inherit}
+
+/*img_Setting*/
+figure{width:100%;height:auto;margin-top:1%}
+figcaption{margin-top:-.5%}
+
+/*h1~h6_&_p_Setting*/
+h1{font-size:36px;font-weight:700;letter-spacing:3px;margin-top:1%}
+h2{font-size:30px;letter-spacing:2px;margin-top:.5%}
+h3{font-size:24px;letter-spacing:1px;margin-top:2%;line-height:26px}
+h4{font-size:18px;letter-spacing:.5px;margin-top:1%;line-height:21px}
+h5{font-size:15px;font-weight:700;letter-spacing:.5px;margin-top:2%;background-color:#0062aa;color:#fff;padding:1%;display:table}
+h5::before{content:"#"}
+h6{font-size:13px;margin-top:1%;line-height:15px;color:#aaa;word-break:break-all}
+p{font-size:16px;letter-spacing:.3px;margin:1% 0;line-height:24px}
+
+/*h1~h6_&_p_Color_Setting*/
+.wber{font-weight:bold}
+.lightblueht{background-color:#30bef2}
+.blackht{background-color:#000}
+.greyht{background-color:#aaa}
+.whiteht{background-color:#fff;color:#888}
+.redrm{color:#ff0000;}
+.lightbluerm{color:#30bef2;}
+
+/*Background_Color_Setting*/
+.redbg{background-color:#ff00001a}
+.yellowbg{background-color:#ffff0045}
+.greenbg{background-color:#45ff371c}
+.brownbg{background-color:#deb6875c}
+.deepgrey{background-color:#000000b8;color:#ffffff}
+.midgrey{background-color:#0000007a;color:#ffffff}
+.shallowgrey{background-color:#0000003b}
+.lightgrey{background-color:#0000001a}
+
+/*RWD*/
+.mobilevesion{display:none}
+.desktopvesion{display:block}
+
+/*LOGO*/
+.mobile-logo a{width:220px;height:40px}
+
+/*Member_Menu*/
+#fixed-menu-container .dropdown .dropdown-menu li:first-child{margin:5% 0 10% 0}
+
+/*Navbar*/
+.navigation-menu-top-layer{max-width:1200px}
+.navigation-menu .navigation-menu-item:hover>.navigation-menu-item-label{color:#a92c34 !important}
+.NavigationBar-mainMenu{max-width:1200px}
+.navigation-menu-top-layer>li:nth-child(2) a{color:#fe4d59 !important}
+.navigation-menu-top-layer>li:nth-child(3) a{color:#ff8d00 !important}
+.MenuPanel-mainMenu>li:nth-child(2) a{color:#fe4d59 !important}
+.MenuPanel-mainMenu>li:nth-child(3) a{color:#ff8d00 !important}
+
+/*Bread_Crumbs*/
+.breadcrumb .text-primary-color{color:#333}
+.breadcrumb .text-primary-color a{color:#333}
+.breadcrumb>.active{color:#8a8a8a}
+
+/*Left_Category_Menu*/
+#leftCol .catmenu>ul>li{margin-bottom:25px}
+#leftCol .catmenu ul.inner-list>li{padding-bottom:10px}
+#leftCol .catmenu ul.inner-list>li a{color:#8a8a8a !important;font-size:15px}
+#leftCol .catmenu #sidebar .text-secondary-color{color:#333}
+#leftCol .catmenu #sidebar li a{color:#333}
+
+/*Index_IG_area*/
+#instagram-profile-pic,#instagram-username{display:none}
+.instagram_item div[ng-hide^="state.loading || posts.length <= 0"]{display:inline-block;margin:2% 0 0 0 !important;width:100%;height:auto}
+
+/*Privacy_Policy*/
+.terms .custom-page-title{display:none}
+#privacypage{color:#666;margin:0 0 -5% 0}
+#privacypage h1{text-align:center;margin:3% 0 5% 0}
+#privacypage ol{margin:3% 0 0 2%}
+#privacypage ol li{margin:0 0 4% 0;line-height:21px}
+#privacypage ol li h4{font-weight:bold}
+#privacypage ol li ol{list-style-type:cjk-ideographic;margin:0 0 0 3%;}
+#privacypage ol li ol li{margin:0 0 1% 0}
+#privacypage ol li ul{list-style-type:disc;margin:2% 0 0 2%;}
+#privacypage ol li ul li{margin:0 0 2% 0}
+
+/*Single_Product*/
+.boxify-container .product-item .text-primary-color{color:#000000;margin-bottom:5%}
+
+/*Page_Option*/
+.product-list-container .row div .pagination{color:#383838}
+.pagination>li>a, .pagination>li>span{color:#383838}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{background-color:#383838cc;border-color:#383838cc}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{color:#383838;background-color:#3838381a}
+
+/*Product_Page*/
+.products .description-container ul li{list-style:initial;margin-left:5%}
+.products .description-container ol li{list-style:initial;margin-left:5%}
+.product-detail-button-container.has-buy-now-button{align-items:baseline}
+.products h2#sec0{display:none}
+.products section article h1{width:100%;height:auto;background:#777777;padding:10px 15px;border-left:4px double #ffffff;font-size:21px;font-weight:700;color:#ffffff;margin-bottom:15px}
+.products section article h2{width:100%;height:auto;background:#777777;padding:10px 15px;font-size:18px;color:#ffffff;margin-bottom:15px;font-weight:bold}
+.products section article .emphasisword{font-size:14px;margin:0 0 5% 5%;padding-right:20px;}
+.products section article ul{margin-bottom:5% !important;padding-right:20px;}
+.products section article ul li{display:block;padding:1% 0;font-size:15px}
+.products section article .attword{width:100%;height:auto;font-weight:bold;margin:0 0 5% 5%}
+.products .fa-thumb-tack:before, .products .fa-diamond:before, .products .fa-flask:before, .products .fa-warning:before{margin-right:1.5%}
+.products .productdetail .pantiesize figure{width:30%}
+.products .productdetail .brasize figure{width:50%}
+.products .productdetail .slingsize figure{width:40%}
+.products .productdetail .pantiesize figure{width:30%}
+.products .productdetail .lingeriesize figure{width:30%}
+.products .productdetail .pajamassize figure{width:30%}
+.products .productdetail article:last-child table{width:100%;height:auto;margin:0;border-collapse:collapse;border-spacing:0}
+.products .productdetail article:last-child tr td{width:10%;padding:5px 0px;border:thin solid #000000;text-align:center;vertical-align:middle}
+.products .productdetail article:last-child tr td h3{font-weight:bold;word-break:break-all;font-size:18px;color:#000000;vertical-align:middle;margin-top:unset}
+.products .productdetail article:last-child tr td h4{word-break:break-all}
+.products .productdetail article:last-child .sizelist-01, .products .productdetail article:last-child .sizelist-02{margin:3% 0}
+.products .productdetail article:last-child .sizelist-03{margin:3% 0 0 0}
+.products .description-container .belowsize{margin:1% 0 0 0}
+.products .description-container .belowsize li{margin:0;padding:0}
+.products .variant-gallery-scroll-container{overflow-x:hidden}
+.products .variation_title{margin:3% 0}
+.products .product-info .add-to-cart .messagetobuy.dark-secondary{display:none}
+.products .action-title{font-size:100%}
+.Product-promotions-tag span{color:#c0392b;font-weight:bold;display:block;font-size:15px}
+.Product-promotions-tag{border:1px solid #c0392b;padding:3px 10px;margin:5% 0 0 0;font-size:15px;color:#666666}
+.products .product-info .out-of-stock{color:#c0392b;font-weight:bold}
+.product-info .addon-item-container #btn-add-to-cart{margin:0 0}
+.products #btn-add-to-cart{display:block;margin-top:5%;margin-bottom:1%}
+.products #btn-main-checkout{display:block;margin-top:5%;margin-bottom:1%}
+.products .product-info .addon-item-container #btn-addon-checkout{margin:0}
+.products .Wishlist-addItem-block .btn-add-wishlist{margin-top:2%}
+.products .js-btn-contact-us{display:block;margin-top:5% !important;margin-bottom:1% !important}
+.products .js-btn-contact-us::before{content:'活動優惠商品售完不補，一般商品請';position:relative;color:white;font-size:14px;line-height:15px;margin-right:-3px}
+.product-info .addon-item-container #btn-main-checkout{margin: 0 0 1% 0 !important}
+.form-control:focus{border-color:#666666;outline:0;-webkit-box-shadow:inset 0 1px 1px #00000013, 0 0 8px #66666699;box-shadow: inset 0 1px 1px #00000013, 0 0 8px #66666699}
+
+/*Product_Review_Area*/
+.review{display:flex;justify-content:center;width:100%;flex-wrap:nowrap;margin:0;padding:1% 0;border-bottom:thin #e4e4e4 solid}
+.review_pic{margin:0 2% 0 0;width:4%;height:100%;border-radius:50%;background-color:transparent;overflow:hidden}
+.review_pic img{display:block;width:100%;height:auto}
+.review_word{width:90%;margin:0}
+.review_word h3{text-align:left;font-size:1.3vmax;font-weight:700;line-height:0;padding:0;margin:1% 0 0 0}
+.review_word p{word-break:break-all;padding:1% 0}
+.review_word figure{display:flex;justify-content: start;width:100%;flex-wrap:nowrap;margin:0;padding:0}
+.review_word>figure>img{width:10%;height:10%;padding:0 1% 1% 0}
+.review_word_ratings{position:relative;vertical-align:middle;display:inline-block;color:#ddd;overflow:hidden;font-size:20px;text-shadow:0 1px 0 #999}
+.full_star{position:absolute;left:0;top:0;white-space:nowrap;overflow:hidden;color:#c7405f}
+.star5{width:100%}
+.star4{width:80%}
+.star3{width:60%}
+.star2{width:40%}
+.star1{width:20%}
+
+/*Order_BTN*/
+.btn-color-primary{background-color:#221817;border:1px solid #000000;color:#fff}
+.btn-color-primary:hover{background-color:#333333cc;border:1px solid #000000;color:#fff}
+
+/*Order_Success_Page*/
+.orders .page-order-show .confirm-message p{line-height:24px}
+.orders .page-order-show .row{margin:3% -15px}
+.orders .ng-scope div span iframe{margin-top:5%}
+.orders .row .col-sm-12 div{margin:2% 0px}
+
+/*Blog_Page*/
+.posts .PostList{display:flex;justify-content:center;width:100%;flex-wrap:wrap}
+.PostList .List-item{width:48%}
+.posts.index .PostList .List-item .List-item-title{max-height:unset;font-size:24px;margin-top:unset}
+.posts.index .PostList .List-item .List-item-content .List-item-text .List-item-preview{line-height:20px}
+.posts.index .PostList .List-item .List-item-content .List-item-text>span:after{width:78px}
+.posts.index .PostList .List-item .List-item-content div>img{height:auto}
+
+/*GoToTop_BTN*/
+.sl-goto-top{top:80%;right:22px;border-radius:50px}
+
+/*Other*/
+
+/*RWD_BreakPoint*/
+@media screen and (min-width: 1600px){
+    }
+@media screen and (max-width: 1200px){
+    }
+@media screen and (max-width:992px){
+    /*Product_Review_Area*/
+    .review_pic {width:6%;margin:3% 2% 0 0}
+    .review_word{margin:4% 0 0 0}
+    .review_word>figure>img{width:13%;height:13%}
+    .review_word p{margin:5% 0 2%}
+    }
+@media screen and (max-width:768px){
+    }
+@media screen and (min-width: 320px) and (max-width:767px){
+    #Footer section .ft-col-right .social-media li:nth-child(4){display:none;}
+    #Footer section .ft-col-right .social-media li:last-child{display:block;width:1.6rem;margin-left:.3rem;}
+    }
+@media screen and (max-width:680px){
+    }
+@media screen and (max-width:480px){
+    /*RWD*/
+    .mobilevesion{display:block}
+    .desktopvesion{display:none}
+
+    /*Product_Review_Area*/
+    .review_pic{width:12%}
+    .review_word h3{font-size:2vmax}
+    .review_word p{font-size:13px}
+    .review_word>figure>img{width:30%;height:30%}
+    .review_word_ratings{font-size:15px}
+    }
+@media screen and (max-width:375px){
+    .sl-goto-top{top:75%}
+    }
+@media (max-width: 338px){
+    .sl-goto-top{top:70%}
+    div#page-item-5e1374373385a4002af9caba img{height:17vmin;}
+    }
+@media screen and (max-width:320px){
+    }
+
+ /*Test_Area_&_events*/
+ div.js-content > div.CustomPage > div:nth-child(2){width:100%;padding:0;margin:0}
+ div.js-content > div.CustomPage > div:nth-child(2) > div.Grid-row > div{padding:0}
